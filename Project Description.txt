@@ -4,11 +4,7 @@ Installed optical device on server records event logs in text form.
 The sample text file of recorded log is availble in sample folder in uploaded project.
 
 The Log Analysis Tool has multiple features.However I have uploded one sample feature where user upload log text file and select a date and time (HH:MM) to analyse incident logs.
-While testing the code 4 inputs required -
-Test.txt (Select test data from "/sample file " folder
-Date : "2020-08-15" (test file contains single day incident log)
-Hours : "01"
-Minutes : "46"
+
 
 
 
@@ -23,11 +19,24 @@ Upload Test.txt(Log file) - input date and time - output file generated and save
 
 
 How to test:
-Upload Test.txt file 
-select date(Key-"selected_date") in "yyyy-mm-dd" form  
-select hours (Key -"selected_hours") in "HH" (0-23)
-select minutes (Key - "selected_minutes") in "MM" (1-59)
-execute
+  While testing the code 4 inputs required -
+    1- Upload Test.txt file  (Select test data from "/sample file " folder)
+    
+    2- select date(Key-"selected_date") in "yyyy-mm-dd" form  
+       example-  "2020-08-15" (test file contains single day incident log)
+      
+    3- select hours (Key -"selected_hours") in "HH" (0-23)
+       example -Hours : "01"
+    
+    4-select minutes (Key - "selected_minutes") in "MM" (1-59)
+        example - Minutes : "46"
+EXECUTE
+
+Output in csv file will be saved in "/static/download_file/"
+
+
+
+
 
 Files:
 app.py - Flask app.
