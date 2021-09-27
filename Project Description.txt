@@ -4,6 +4,12 @@ Installed optical device on server records event logs in text form.
 The sample text file of recorded log is availble in sample folder in uploaded project.
 
 The Log Analysis Tool has multiple features.However I have uploded one sample feature where user upload log text file and select a date and time (HH:MM) to analyse incident logs.
+While testing the code 4 inputs required -
+Test.txt (Select test data from "/sample file " folder
+Date : "2020-08-15" (test file contains single day incident log)
+Hours : "01"
+Minutes : "46"
+
 
 
 Required Postman.
